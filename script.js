@@ -17,7 +17,7 @@ function showCart() {
         return;
     }
 
-    let message = "YOUR NOCTURNE BEAUTY BAG\n\n";
+    let message = "YOUR DARK BEAUTY BAG\n\n";
     let total = 0;
 
     for (let i = 0; i < cart.length; i++) {
