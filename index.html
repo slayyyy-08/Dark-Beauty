@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOCTURNE BEAUTY | Gothic Makeup</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">NOCTURNE<span> BEAUTY</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Makeup</a>
+            <a href="#about">Our Story</a>
+        </nav>
+
+        <button class="cart-button" onclick="showCart()">
+            🛍 Bag (<span id="cart-count">0</span>)
+        </button>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">BEAUTY IN THE DARK</p>
+            <h1>Embrace Your<br><span>Dark Side.</span></h1>
+            <p class="hero-text">
+                Unapologetic beauty. Midnight shades.
+                Makeup for the beautifully mysterious.
+            </p>
+            <a href="#products" class="shop-button">EXPLORE THE COLLECTION</a>
+        </div>
+    </section>
+
+    <section class="intro" id="about">
+        <p>✦ DARK ROMANCE · TIMELESS BEAUTY · BOLD EXPRESSION ✦</p>
+        <h2>Not Made to Blend In.</h2>
+        <p>For the ones who find beauty in the shadows.</p>
+    </section>
+
+    <section class="products" id="products">
+        <p class="eyebrow">THE MIDNIGHT COLLECTION</p>
+        <h2>Darkly Desirable</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=700&q=80"
+                     alt="Dark red lipstick">
+                <p class="category">LIPS</p>
+                <h3>Blood Moon Lipstick</h3>
+                <p class="price">₹699</p>
+                <button onclick="addToCart('Blood Moon Lipstick', 699)">
+                    Add to Bag
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80"
+                     alt="Makeup and beauty products">
+                <p class="category">EYES</p>
+                <h3>Wicked Eyes Palette</h3>
+                <p class="price">₹1,299</p>
+                <button onclick="addToCart('Wicked Eyes Palette', 1299)">
+                    Add to Bag
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80"
+                     alt="Luxury makeup collection">
+                <p class="category">FACE</p>
+                <h3>Velvet Noir Blush</h3>
+                <p class="price">₹849</p>
+                <button onclick="addToCart('Velvet Noir Blush', 849)">
+                    Add to Bag
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80"
+                     alt="Cosmetics collection">
+                <p class="category">ESSENTIALS</p>
+                <h3>Midnight Mystery Kit</h3>
+                <p class="price">₹1,599</p>
+                <button onclick="addToCart('Midnight Mystery Kit', 1599)">
+                    Add to Bag
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="quote">
+        <p>"She wore darkness like a crown."</p>
+        <span>— NOCTURNE BEAUTY</span>
+    </section>
+
+    <footer>
+        <h2>NOCTURNE BEAUTY</h2>
+        <p>Made for the beautifully unconventional.</p>
+        <p class="copyright">© 2026 Nocturne Beauty. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
