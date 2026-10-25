@@ -1,4 +1,4 @@
-# Dark Beauty - Gothic Makeup Website
+# Nocturne Beauty - Gothic Makeup Website
 
 ## 1. About the Project
 Dark Beauty is a simple gothic-themed makeup website.
